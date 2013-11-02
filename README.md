@@ -7,6 +7,8 @@ developed by Jani Nurminen.
 This theme uses the new built-in theming support available starting
 with Emacs 24.
 
+![Flatland Emacs Screenshot](http://raw.github.com/gregchapple/flatland-emacs/master/flatland-emacs.png)
+
 ### NOTE 
 This is still under development. Currently, this has only been tested in the GUI version of emacs, and not in the terminal.
 If you find any issues, please report them on the Github Issue Tracker. Pull requests welcome :)
