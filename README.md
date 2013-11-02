@@ -7,7 +7,7 @@ developed by Jani Nurminen.
 This theme uses the new built-in theming support available starting
 with Emacs 24.
 
-![Flatland Emacs Screenshot](http://raw.github.com/gregchapple/flatland-emacs/master/flatland-emacs.png)
+![Flatland Emacs Screenshot](https://raw.github.com/gregchapple/flatland-emacs/master/flatland-emacs.png)
 
 ### NOTE 
 This is still under development. Currently, this has only been tested in the GUI version of emacs, and not in the terminal.
