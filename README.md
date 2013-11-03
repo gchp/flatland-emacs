@@ -2,7 +2,7 @@
 
 Flatland for Emacs is a direct port of the popular
 [Flatland](http://github.com/thinkpixellab/flatland) theme for Sublime Text.
-developed by Jani Nurminen. 
+developed by Pixel Lab.
 
 This theme uses the new built-in theming support available starting
 with Emacs 24.
