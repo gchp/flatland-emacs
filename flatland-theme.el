@@ -4,7 +4,7 @@
 
 ;; Author: Greg Chapple <info@gregchapple.com>
 ;; URL: http://github.com/gregchapple/flatland-emacs
-;; Version: 0.1
+;; Version: 0.1.1
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -217,11 +217,11 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(font-latex-sectioning-5-face ((t (:foreground ,flatland-red :weight bold ))))
    `(font-latex-sedate-face ((t (:foreground ,flatland-yellow))))
 ;;;;; auto-complete
-   `(ac-candidate-face ((t (:background ,flatland-bg+3 :foreground "black"))))
-   `(ac-selection-face ((t (:background ,flatland-blue-4 :foreground ,flatland-fg))))
+   `(ac-candidate-face ((t (:background ,flatland-fg-1 :foreground "black"))))
+   `(ac-selection-face ((t (:background ,flatland-selection :foreground ,flatland-fg))))
    `(popup-tip-face ((t (:background ,flatland-yellow-2 :foreground "black"))))
-   `(popup-scroll-bar-foreground-face ((t (:background ,flatland-blue-5))))
-   `(popup-scroll-bar-background-face ((t (:background ,flatland-bg-1))))
+   `(popup-scroll-bar-foreground-face ((t (:background ,flatland-bg+3))))
+   `(popup-scroll-bar-background-face ((t (:background ,flatland-white))))
    `(popup-isearch-match ((t (:background ,flatland-bg :foreground ,flatland-fg))))
 ;;;;; android mode
    `(android-mode-debug-face ((t (:foreground ,flatland-green+1))))
