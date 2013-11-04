@@ -170,7 +170,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(font-lock-regexp-grouping-construct ((t (:foreground ,flatland-yellow :weight bold))))
    `(font-lock-regexp-grouping-backslash ((t (:foreground ,flatland-green :weight bold))))
    `(font-lock-string-face ((t (:foreground ,flatland-blue+1))))
-   `(font-lock-type-face ((t (:foreground ,flatland-blue-1))))
+   `(font-lock-type-face ((t (:foreground ,flatland-blue-2))))
    `(font-lock-variable-name-face ((t (:foreground ,flatland-yellow))))
    `(font-lock-color-constant-face ((t (:foreground ,flatland-red+1))))
    `(font-lock-reference-face ((t (:foreground ,flatland-red+1))))
@@ -788,6 +788,10 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(web-mode-symbol-face ((t (:inherit font-lock-constant-face))))
    `(web-mode-warning-face ((t (:inherit font-lock-warning-face))))
    `(web-mode-whitespaces-face ((t (:background ,flatland-red))))
+   
+;;;;; css-mode
+   `(css-property ((t (:foreground ,flatland-blue-2))))
+
 ;;;;; whitespace-mode
    `(whitespace-space ((t (:background ,flatland-bg+1 :foreground ,flatland-bg+1))))
    `(whitespace-hspace ((t (:background ,flatland-bg+1 :foreground ,flatland-bg+1))))
