@@ -794,6 +794,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    
 ;;;;; css-mode
    `(css-property ((t (:foreground ,flatland-blue-2))))
+   `(css-selector ((t (:foreground ,flatland-green+1))))
 
 ;;;;; whitespace-mode
    `(whitespace-space ((t (:background ,flatland-bg+1 :foreground ,flatland-bg+1))))
