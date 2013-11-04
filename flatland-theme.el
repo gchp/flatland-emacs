@@ -4,7 +4,7 @@
 
 ;; Author: Greg Chapple <info@gregchapple.com>
 ;; URL: http://github.com/gregchapple/flatland-emacs
-;; Version: 0.1.1
+;; Version: 0.1.2
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
