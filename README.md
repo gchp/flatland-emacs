@@ -28,5 +28,21 @@ Now you can load the theme with the interactive function `load-theme` like this:
 
 `M-x load-theme RET flatland`
 
+Or, load load it automatically by placing this in your initialisation file:
+
+```lisp
+(load-theme 'flatland t)
+```
+
+### MELPA
+You can also install flatland from MELPA.
+
+```
+M-x package-install RET flatland-theme
+```
+
+Then load the same way as above.
+
+
 ## Usage
 For best use with HTML, you should check out `web-mode` which can be installed from MELPA. This theme has been optimised for use with web-mode rather than html-mode.
