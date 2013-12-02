@@ -514,7 +514,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(macrostep-macro-face
      ((t (:underline t))))
 ;;;;; magit
-   `(magit-section-title ((t (:foreground ,flatland-yellow :weight bold))))
+   `(magit-section-title ((t (:foreground ,flatland-yellow :weight bold :box nil :underline t))))
    `(magit-branch ((t (:foreground ,flatland-orange :weight bold))))
    `(magit-item-highlight ((t (:background ,flatland-bg+1 :bold nil))))
 ;;;;; egg
