@@ -515,7 +515,7 @@ Also bind `class' to ((class color) (min-colors 89))."
      ((t (:underline t))))
 ;;;;; magit
    `(magit-section-title ((t (:foreground ,flatland-yellow :background ,flatland-bg :weight bold :box nil :underline t))))
-   `(magit-branch ((t (:foreground ,flatland-orange :weight bold :box nil))))
+   `(magit-branch ((t (:foreground ,flatland-orange :background ,flatland-bg :weight bold :box nil))))
    `(magit-item-highlight ((t (:background ,flatland-bg+1 :bold nil))))
 ;;;;; egg
    `(egg-text-base ((t (:foreground ,flatland-fg))))
