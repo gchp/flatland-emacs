@@ -1,4 +1,4 @@
-;;; flatland-theme.el --- A simple theme for Emacs.
+;;; flatland-theme.el --- A simple theme for Emacs based on the Flatland theme for Sublime Text
 
 ;; Copyright (C) 2013 Greg Chapple
 
