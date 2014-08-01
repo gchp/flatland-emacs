@@ -453,15 +453,15 @@ Also bind `class' to ((class color) (min-colors 89))."
                       :box nil))))
    `(helm-source-header
      ((t (:foreground ,flatland-yellow
-                      :background ,flatland-bg-1
                       :underline nil
                       :weight bold
-                      :box (:line-width -1 :style released-button)))))
-   `(helm-selection ((t (:background ,flatland-bg+1 :underline nil))))
+                      :box nil))))
+   `(helm-selection ((t (:background ,flatland-selection :underline nil))))
    `(helm-selection-line ((t (:background ,flatland-bg+1))))
    `(helm-visible-mark ((t (:foreground ,flatland-bg :background ,flatland-yellow-2))))
    `(helm-candidate-number ((t (:foreground ,flatland-green+4 :background ,flatland-bg-1))))
    `(helm-ff-directory ((t (:foreground ,flatland-magenta))))
+   `(helm-buffer-directory ((t (:background ,flatland-blue-2))))
 ;;;;; hl-line-mode
    `(hl-line-face ((,class (:background ,flatland-bg-05))
                    (t :weight bold)))
