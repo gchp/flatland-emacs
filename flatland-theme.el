@@ -517,6 +517,9 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(magit-section-title ((t (:foreground ,flatland-yellow :background ,flatland-bg :weight bold :box nil :underline t))))
    `(magit-branch ((t (:foreground ,flatland-orange :background ,flatland-bg :weight bold :box nil))))
    `(magit-item-highlight ((t (:background ,flatland-bg+1 :bold nil))))
+   `(magit-blame-header (( t (:box (:line-width 1 :style released-button)))))
+   `(magit-blame-sha1 ((t (:foreground ,flatland-green :box (:line-width 1 :style released-button)))))
+   `(magit-blame-subject ((t (:foreground ,flatland-yellow-2 :box (:line-width 1 :style released-button)))))
 ;;;;; egg
    `(egg-text-base ((t (:foreground ,flatland-fg))))
    `(egg-help-header-1 ((t (:foreground ,flatland-yellow))))
