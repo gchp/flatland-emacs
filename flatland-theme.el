@@ -732,6 +732,8 @@ Also bind `class' to ((class color) (min-colors 89))."
                                         :background ,flatland-bg+1
                                         :box (:line-width -1 :style released-button)))))
 ;;;;; term
+   `(term             ((t (:foreground ,flatland-fg
+                                       :background ,flatland-bg))))
    `(term-color-black ((t (:foreground ,flatland-bg
                                        :background ,flatland-bg-1))))
    `(term-color-red ((t (:foreground ,flatland-red-2
