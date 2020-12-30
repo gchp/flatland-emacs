@@ -716,8 +716,8 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(rst-level-5-face ((t (:foreground ,flatland-cyan))))
    `(rst-level-6-face ((t (:foreground ,flatland-green-1))))
 ;;;;; show-paren
-   `(show-paren-mismatch ((t (:foreground ,flatland-red-3 :background ,flatland-bg :weight bold))))
-   `(show-paren-match ((t (:foreground ,flatland-blue-1 :background ,flatland-bg :weight bold))))
+   `(show-paren-mismatch ((t (:background ,flatland-red-3 :foreground ,flatland-bg :weight bold))))
+   `(show-paren-match ((t (:background ,flatland-blue-1 :foreground ,flatland-bg :weight bold))))
 ;;;;; smartparens
    `(sp-show-pair-mismatch-face ((t (:background ,flatland-bg+3 :foreground ,flatland-red-3 :weight bold))))
    `(sp-show-pair-match-face ((t (:background ,flatland-bg+3 :weight bold))))
