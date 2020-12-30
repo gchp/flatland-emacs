@@ -734,6 +734,12 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(tabbar-unselected ((t (:foreground ,flatland-fg
                                         :background ,flatland-bg+1
                                         :box (:line-width -1 :style released-button)))))
+;;;;; tab-line (emacs >=26.1)
+   ;; flat tab-line
+   `(tab-line               ((t (:inherit fringe :box (:color ,flatland-bg+1 :line-width 4)))))
+   `(tab-line-tab-current   ((t (:inherit tab-line))))
+   `(tab-line-tab-inactive  ((t (:inherit fringe :foreground ,flatland-white-5 :box (:color ,flatland-bg+1 :line-width 4)))))
+
 ;;;;; term
    `(term             ((t (:foreground ,flatland-fg
                                        :background ,flatland-bg))))
