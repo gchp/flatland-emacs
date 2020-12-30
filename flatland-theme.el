@@ -498,6 +498,9 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(jabber-title-large ((t (:height 1.3 :weight bold))))
 ;;;;; linum-mode
    `(linum ((t (:foreground ,flatland-selection :background ,flatland-bg))))
+;;;;; line-number (emacs26)
+   `(line-number  ((t (:inherit fringe :foreground ,flatland-white-5))))
+   `(line-number-current-line  ((t (:inherit fringe :foreground ,flatland-white))))
 ;;;;; macrostep
    `(macrostep-gensym-1
      ((t (:foreground ,flatland-green+2 :background ,flatland-bg-1))))
@@ -713,8 +716,8 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(rst-level-5-face ((t (:foreground ,flatland-cyan))))
    `(rst-level-6-face ((t (:foreground ,flatland-green-1))))
 ;;;;; show-paren
-   `(show-paren-mismatch ((t (:foreground ,flatland-red-3 :background ,flatland-bg :weight bold))))
-   `(show-paren-match ((t (:foreground ,flatland-blue-1 :background ,flatland-bg :weight bold))))
+   `(show-paren-mismatch ((t (:background ,flatland-red-3 :foreground ,flatland-bg :weight bold))))
+   `(show-paren-match ((t (:background ,flatland-blue-1 :foreground ,flatland-bg :weight bold))))
 ;;;;; smartparens
    `(sp-show-pair-mismatch-face ((t (:background ,flatland-bg+3 :foreground ,flatland-red-3 :weight bold))))
    `(sp-show-pair-match-face ((t (:background ,flatland-bg+3 :weight bold))))
@@ -731,6 +734,12 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(tabbar-unselected ((t (:foreground ,flatland-fg
                                         :background ,flatland-bg+1
                                         :box (:line-width -1 :style released-button)))))
+;;;;; tab-line (emacs >=26.1)
+   ;; flat tab-line
+   `(tab-line               ((t (:inherit fringe :box (:color ,flatland-bg+1 :line-width 4)))))
+   `(tab-line-tab-current   ((t (:inherit tab-line))))
+   `(tab-line-tab-inactive  ((t (:inherit fringe :foreground ,flatland-white-5 :box (:color ,flatland-bg+1 :line-width 4)))))
+
 ;;;;; term
    `(term             ((t (:foreground ,flatland-fg
                                        :background ,flatland-bg))))
@@ -845,6 +854,8 @@ Also bind `class' to ((class color) (min-colors 89))."
 ;;;;; yascroll
    `(yascroll:thumb-text-area ((t (:background ,flatland-bg-1))))
    `(yascroll:thumb-fringe ((t (:background ,flatland-bg-1 :foreground ,flatland-bg-1))))
+;;;;; yasnippet
+   `(yas-field-highlight-face ((t (:background ,flatland-selection))))
    ))
 
 ;;; Theme Variables
