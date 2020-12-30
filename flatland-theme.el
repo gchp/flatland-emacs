@@ -498,6 +498,9 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(jabber-title-large ((t (:height 1.3 :weight bold))))
 ;;;;; linum-mode
    `(linum ((t (:foreground ,flatland-selection :background ,flatland-bg))))
+;;;;; line-number (emacs26)
+   `(line-number  ((t (:inherit fringe :foreground ,flatland-white-5))))
+   `(line-number-current-line  ((t (:inherit fringe :foreground ,flatland-white))))
 ;;;;; macrostep
    `(macrostep-gensym-1
      ((t (:foreground ,flatland-green+2 :background ,flatland-bg-1))))
