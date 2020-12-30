@@ -854,6 +854,8 @@ Also bind `class' to ((class color) (min-colors 89))."
 ;;;;; yascroll
    `(yascroll:thumb-text-area ((t (:background ,flatland-bg-1))))
    `(yascroll:thumb-fringe ((t (:background ,flatland-bg-1 :foreground ,flatland-bg-1))))
+;;;;; yasnippet
+   `(yas-field-highlight-face ((t (:background ,flatland-selection))))
    ))
 
 ;;; Theme Variables
